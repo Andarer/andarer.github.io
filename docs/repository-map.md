@@ -1,3 +1,3 @@
-# architecture
+# repository-map
 
 Документация проекта.

@@ -1,3 +1,3 @@
-# architecture
+# standards
 
 Документация проекта.

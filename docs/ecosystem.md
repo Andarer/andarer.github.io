@@ -1,3 +1,3 @@
-# architecture
+# ecosystem
 
 Документация проекта.
