@@ -1,37 +1,182 @@
 {
+  "ecosystem": "MetaSymbiote",
+
+  "version": "1.0.0",
+
   "nodes": [
+
     {
-      "id": "MetaBuilder"
+      "id": "andarer",
+      "label": "Andarer",
+      "type": "Portal",
+      "icon": "🌌"
     },
+
     {
-      "id": "MetaSchedule Engine"
+      "id": "metasymbiote",
+      "label": "MetaSymbiote",
+      "type": "Core",
+      "icon": "🧠"
     },
+
     {
-      "id": "MetaGit Client"
+      "id": "metabuilder",
+      "label": "MetaBuilder",
+      "type": "Core",
+      "icon": "🧩"
     },
+
     {
-      "id": "MetaGit Server"
+      "id": "metaschedule-engine",
+      "label": "MetaSchedule Engine",
+      "type": "Core",
+      "icon": "📅"
     },
+
     {
-      "id": "MetaCMS Builder"
+      "id": "metagit-client",
+      "label": "MetaGit Client",
+      "type": "Core",
+      "icon": "🔗"
     },
+
     {
-      "id": "MetaAdminApp"
+      "id": "metagit-server",
+      "label": "MetaGit Server",
+      "type": "Core",
+      "icon": "🖥️"
     },
+
     {
-      "id": "MetaTradeBot"
+      "id": "metacms-builder",
+      "label": "MetaCMS Builder",
+      "type": "Core",
+      "icon": "📚"
     },
+
     {
-      "id": "GAME HUB"
+      "id": "metaadminapp",
+      "label": "MetaAdminApp",
+      "type": "Apps",
+      "icon": "⚙️"
     },
+
     {
-      "id": "MUWS"
+      "id": "muws",
+      "label": "MUWS",
+      "type": "Apps",
+      "icon": "🌐"
     },
+
     {
-      "id": "MetaQuoteWidget"
+      "id": "metaquotewidget",
+      "label": "MetaQuoteWidget",
+      "type": "Apps",
+      "icon": "💬"
     },
+
     {
-      "id": "Intent Portal"
+      "id": "intent-portal",
+      "label": "Intent Portal",
+      "type": "Apps",
+      "icon": "🚪"
+    },
+
+    {
+      "id": "game-hub",
+      "label": "GAME HUB",
+      "type": "Experimental",
+      "icon": "🎮"
+    },
+
+    {
+      "id": "metatradebot",
+      "label": "MetaTradeBot",
+      "type": "Business",
+      "icon": "📈"
     }
+
+  ],
+
+  "relations": [
+
+    {
+      "source": "andarer",
+      "target": "metasymbiote",
+      "type": "creator"
+    },
+
+    {
+      "source": "metasymbiote",
+      "target": "metabuilder",
+      "type": "core"
+    },
+
+    {
+      "source": "metabuilder",
+      "target": "metagit-client",
+      "type": "depends"
+    },
+
+    {
+      "source": "metabuilder",
+      "target": "metagit-server",
+      "type": "depends"
+    },
+
+    {
+      "source": "metabuilder",
+      "target": "metacms-builder",
+      "type": "integrates"
+    },
+
+    {
+      "source": "metabuilder",
+      "target": "metaschedule-engine",
+      "type": "integrates"
+    },
+
+    {
+      "source": "metabuilder",
+      "target": "metaadminapp",
+      "type": "integrates"
+    },
+
+    {
+      "source": "metabuilder",
+      "target": "muws",
+      "type": "exports"
+    },
+
+    {
+      "source": "metacms-builder",
+      "target": "metaquotewidget",
+      "type": "module"
+    },
+
+    {
+      "source": "metacms-builder",
+      "target": "intent-portal",
+      "type": "module"
+    },
+
+    {
+      "source": "metagit-client",
+      "target": "metagit-server",
+      "type": "sync"
+    },
+
+    {
+      "source": "metaadminapp",
+      "target": "metatradebot",
+      "type": "manages"
+    },
+
+    {
+      "source": "metaadminapp",
+      "target": "game-hub",
+      "type": "manages"
+    }
+
   ]
 }
