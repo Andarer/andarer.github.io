@@ -1,60 +1,213 @@
 {
   "ecosystem": "MetaSymbiote",
+  "version": "1.1.0",
+  "lastUpdated": "2026-06-24",
+
   "projects": [
+
     {
-      "title": "MetaBuilder",
+      "id": "andarer",
+      "icon": "🌌",
+      "title": "Andarer",
+      "category": "Portal",
+      "status": "🟢 Active",
+      "version": "1.0.0",
+      "description": "Персональный профиль Анда́рера и точка входа в экосистему MetaSymbiote.",
+      "github": "https://github.com/Andarer/Andarer",
+      "website": "https://github.com/Andarer",
+      "tags": [
+        "profile",
+        "metasymbiote",
+        "portal"
+      ]
+    },
+
+    {
+      "id": "metabuilder",
       "icon": "🧩",
-      "description": "Конструктор цифровых проектов"
+      "title": "MetaBuilder",
+      "category": "Core",
+      "status": "🟢 Active",
+      "version": "0.6",
+      "description": "Конструктор цифровых проектов, сайтов, PWA и экосистем.",
+      "github": "https://github.com/Andarer/MetaBuilder",
+      "website": "https://andarer.github.io/MetaBuilder",
+      "tags": [
+        "builder",
+        "pwa",
+        "web",
+        "automation"
+      ]
     },
+
     {
-      "title": "MetaSchedule Engine",
+      "id": "metaschedule-engine",
       "icon": "📅",
-      "description": "Планирование и автоматизация"
+      "title": "MetaSchedule Engine",
+      "category": "Core",
+      "status": "🟢 Active",
+      "version": "0.1",
+      "description": "Система планирования, автоматизации и управления задачами.",
+      "github": "https://github.com/Andarer/MetaSchedule-Engine",
+      "website": "https://andarer.github.io/MetaSchedule-Engine",
+      "tags": [
+        "schedule",
+        "planner",
+        "automation"
+      ]
     },
+
     {
-      "title": "MetaGit Client",
+      "id": "metagit-client",
       "icon": "🔗",
-      "description": "Git-инструменты"
+      "title": "MetaGit Client",
+      "category": "Core",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Клиент управления репозиториями Git и GitHub.",
+      "github": "https://github.com/Andarer/MetaGitClient",
+      "website": "",
+      "tags": [
+        "git",
+        "github",
+        "client"
+      ]
     },
+
     {
-      "title": "MetaGit Server",
+      "id": "metagit-server",
       "icon": "🖥️",
-      "description": "Git-инфраструктура"
+      "title": "MetaGit Server",
+      "category": "Core",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Серверная инфраструктура MetaGit.",
+      "github": "https://github.com/Andarer/MetaGit-Server",
+      "website": "",
+      "tags": [
+        "git",
+        "server",
+        "automation"
+      ]
     },
+
     {
-      "title": "MetaCMS Builder",
+      "id": "metacms-builder",
       "icon": "📚",
-      "description": "Система управления контентом"
+      "title": "MetaCMS Builder",
+      "category": "Core",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Платформа управления контентом и публикациями.",
+      "github": "https://github.com/Andarer/MetaCMS-Builder",
+      "website": "",
+      "tags": [
+        "cms",
+        "content",
+        "knowledge"
+      ]
     },
+
     {
-      "title": "MetaAdminApp",
+      "id": "metaadminapp",
       "icon": "⚙️",
-      "description": "Панель управления"
+      "title": "MetaAdminApp",
+      "category": "Apps",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Универсальная панель управления проектами.",
+      "github": "https://github.com/Andarer/MetaAdminApp",
+      "website": "",
+      "tags": [
+        "admin",
+        "dashboard",
+        "management"
+      ]
     },
+
     {
-      "title": "MetaTradeBot",
-      "icon": "📈",
-      "description": "Торговая автоматизация"
-    },
-    {
-      "title": "GAME HUB",
-      "icon": "🎮",
-      "description": "Игровая платформа"
-    },
-    {
-      "title": "MUWS",
+      "id": "muws",
       "icon": "🌐",
-      "description": "Web → APK"
+      "title": "MUWS",
+      "category": "Apps",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Конвертер Web → Android APK без написания кода.",
+      "github": "https://github.com/Andarer/MUWS",
+      "website": "",
+      "tags": [
+        "apk",
+        "android",
+        "webview"
+      ]
     },
+
     {
-      "title": "MetaQuoteWidget",
+      "id": "metaquotewidget",
       "icon": "💬",
-      "description": "Виджет цитат"
+      "title": "MetaQuoteWidget",
+      "category": "Apps",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "PWA-виджет цитат с офлайн-режимом.",
+      "github": "https://github.com/Andarer/MetaQuoteWidget",
+      "website": "",
+      "tags": [
+        "quotes",
+        "widget",
+        "pwa"
+      ]
     },
+
     {
-      "title": "Intent Portal",
+      "id": "intent-portal",
       "icon": "🚪",
-      "description": "Android Intents"
+      "title": "Intent Portal",
+      "category": "Apps",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Лаборатория Android Intent и Deep Links.",
+      "github": "https://github.com/Andarer/intent-portal",
+      "website": "",
+      "tags": [
+        "android",
+        "intent",
+        "deeplink"
+      ]
+    },
+
+    {
+      "id": "game-hub",
+      "icon": "🎮",
+      "title": "GAME HUB",
+      "category": "Experimental",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Игровая платформа и каталог игр.",
+      "github": "https://github.com/Andarer/-GAME-HUB---",
+      "website": "https://andarer.github.io/-GAME-HUB---",
+      "tags": [
+        "games",
+        "hub",
+        "web"
+      ]
+    },
+
+    {
+      "id": "metatradebot",
+      "icon": "📈",
+      "title": "MetaTradeBot",
+      "category": "Business",
+      "status": "🟡 Development",
+      "version": "0.1",
+      "description": "Автоматизация торговых операций и стратегий.",
+      "github": "https://github.com/Andarer/MetaTradeBot",
+      "website": "",
+      "tags": [
+        "trading",
+        "automation",
+        "finance"
+      ]
     }
   ]
 }
