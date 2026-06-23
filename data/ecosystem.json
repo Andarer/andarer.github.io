@@ -1,0 +1,37 @@
+{
+  "nodes": [
+    {
+      "id": "MetaBuilder"
+    },
+    {
+      "id": "MetaSchedule Engine"
+    },
+    {
+      "id": "MetaGit Client"
+    },
+    {
+      "id": "MetaGit Server"
+    },
+    {
+      "id": "MetaCMS Builder"
+    },
+    {
+      "id": "MetaAdminApp"
+    },
+    {
+      "id": "MetaTradeBot"
+    },
+    {
+      "id": "GAME HUB"
+    },
+    {
+      "id": "MUWS"
+    },
+    {
+      "id": "MetaQuoteWidget"
+    },
+    {
+      "id": "Intent Portal"
+    }
+  ]
+}

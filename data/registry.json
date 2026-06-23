@@ -1,1 +1,60 @@
-
+{
+  "ecosystem": "MetaSymbiote",
+  "projects": [
+    {
+      "title": "MetaBuilder",
+      "icon": "🧩",
+      "description": "Конструктор цифровых проектов"
+    },
+    {
+      "title": "MetaSchedule Engine",
+      "icon": "📅",
+      "description": "Планирование и автоматизация"
+    },
+    {
+      "title": "MetaGit Client",
+      "icon": "🔗",
+      "description": "Git-инструменты"
+    },
+    {
+      "title": "MetaGit Server",
+      "icon": "🖥️",
+      "description": "Git-инфраструктура"
+    },
+    {
+      "title": "MetaCMS Builder",
+      "icon": "📚",
+      "description": "Система управления контентом"
+    },
+    {
+      "title": "MetaAdminApp",
+      "icon": "⚙️",
+      "description": "Панель управления"
+    },
+    {
+      "title": "MetaTradeBot",
+      "icon": "📈",
+      "description": "Торговая автоматизация"
+    },
+    {
+      "title": "GAME HUB",
+      "icon": "🎮",
+      "description": "Игровая платформа"
+    },
+    {
+      "title": "MUWS",
+      "icon": "🌐",
+      "description": "Web → APK"
+    },
+    {
+      "title": "MetaQuoteWidget",
+      "icon": "💬",
+      "description": "Виджет цитат"
+    },
+    {
+      "title": "Intent Portal",
+      "icon": "🚪",
+      "description": "Android Intents"
+    }
+  ]
+}
